@@ -1,0 +1,93 @@
+
+@keyframes glow-blue {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff,
+            0 0 40px #228DFF;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+            0 0 20px #228DFF, 0 0 35px #228DFF;
+    }
+}
+@-moz-keyframes glow-blue {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 
+            0 0 40px #228DFF;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF,
+            0 0 35px #228DFF;
+    }
+}
+@-webkit-keyframes glow-blue {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 
+        0 0 40px #228DFF;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 
+        0 0 20px #228DFF, 0 0 35px #228DFF;
+    }
+}
+
+@keyframes glow-red {
+    from {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+            0 0 20px #FF1177;
+    }
+    to {
+        box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 8px #fff,
+            0 0 10px #FF1177, 0 0 17px #FF1177;
+    }
+}
+@-moz-keyframes glow-red {
+    from {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+            0 0 20px #FF1177;
+    }
+    to {
+        box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 8px #fff,
+            0 0 10px #FF1177, 0 0 17px #FF1177;
+    }
+}
+@-webkit-keyframes glow-red {
+    from {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff,
+            0 0 20px #FF1177;
+    }
+    to {
+        box-shadow: 0 0 2px #fff, 0 0 5px #fff, 0 0 8px #fff,
+            0 0 10px #FF1177, 0 0 17px #FF1177;
+    }
+}
+
+@keyframes glow-green {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff
+         0 0 40px #B6FF00;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 
+            0 0 20px #B6FF00, 0 0 35px #B6FF00;
+    }
+}
+@-moz-keyframes glow-green {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff
+         0 0 40px #B6FF00;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 
+            0 0 20px #B6FF00, 0 0 35px #B6FF00;
+    }
+}
+@-webkit-keyframes glow-green {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff
+         0 0 40px #B6FF00;
+    }
+    to {
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 
+            0 0 20px #B6FF00, 0 0 35px #B6FF00;
+    }
+}

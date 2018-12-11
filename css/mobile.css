@@ -14,7 +14,7 @@
         padding: 70px 10px 0 10px;
     }
 
-    .content .iphone {
+    .content .device {
         margin-left: 0;
         margin-top: 30px;
     }
@@ -28,21 +28,6 @@
     .content .text p {
         font-size: 14px;
         line-height: 20px;
-    }
-    .content .iphone img {
-        width: 200px;
-    }
-
-    .wrapper {
-        width: 162px;
-        height: 289px;
-        top: 51px;
-        right: 19px;
-    }
-
-    .pic.image-3 {
-        top: 72px;
-        right: 41px;
     }
 
     .features .image {

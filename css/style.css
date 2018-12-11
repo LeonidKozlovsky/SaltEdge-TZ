@@ -136,11 +136,17 @@ header .hamburger-menu.change .menu {
     margin-top: 20px;
     line-height: 22px;
 }
-.content .iphone {
+.content .device {
     display: inline-block;
     margin-left: 50px;
     position: relative;
     overflow: hidden;
+}
+.content .device .iphone {
+    display: none;
+}
+.content .device .ipad {
+    display: block;
 }
 
 .features {
@@ -168,37 +174,41 @@ header .hamburger-menu.change .menu {
 }
 .image-1.show {
     animation: glow-green 1s ease-in-out infinite alternate;
-    opacity: 1;
 }
 .image-2.show {
     animation: glow-red 1s ease-in-out infinite alternate;
-    opacity: 1;
     transform: rotateY(360deg);
     transition: all 1s ease-in-out;
 }
 .image-3.show {
     animation: glow-blue 1s ease-in-out infinite alternate;
-    opacity: 1;
 }
 .pic.image-3 {
     width: 50%;
     height: 50%;
-    top: 90px;
-    right: 52px;
+    top: 150px;
+    right: 112px;
+    border-radius: 5px;
 }
 .pic.image-3.show {
     transform: scale(2);
     transition: all 1s ease-in-out;
 }
+
 .wrapper {
-    width: 203px;
-    height: 361px;
+    width: 447px;
+    height: 598px;
+    border-radius: 10px;
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    top: 64px;
-    right: 23px;
+    top: 26px;
+    right: 26px;
     overflow: hidden;
+}
+
+.show {
+    opacity: 1;
 }
 .pic {
     -webkit-transition: opacity 1s ease-in-out;
@@ -213,9 +223,35 @@ header .hamburger-menu.change .menu {
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
+    border-radius: 10px
 }
 .pic.show {
     opacity:1;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);
+}
+@media screen and (max-width: 1024px) {
+    .content .device .iphone {
+        display: block;
+    }
+    .content .device .ipad {
+        display: none;
+    }
+
+    .wrapper {
+        width: 203px;
+        height: 361px;
+        top: 64px;
+        right: 23px;
+        border-radius: 0;
+    }
+
+    .pic {
+        border-radius: 0;
+    }
+    .pic.image-3 {
+        top: 90px;
+        right: 52px;
+        border-radius: 0;
+    }
 }
